@@ -1,0 +1,42 @@
+.container{
+    background-color: #F8F9FA;
+    margin-top: 10px;
+    padding: 50px;
+    text-align: center;
+    z-index: -1;
+}
+img{
+  user-select: none;
+}
+.container p{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 0;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 400px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, rgba(153, 153, 153, 0.4));
+  }
+
+  @media only screen and (max-width: 900px), (max-height: 500px) {
+    .swiper-slide {
+        width: 60%;
+        height: 200px;
+    }
+  }

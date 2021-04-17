@@ -1,0 +1,113 @@
+.container{
+    background-color: #F8F9FA;
+    margin-top: 10px;
+    padding: 50px;
+    z-index: 0;
+    color: #000;
+    font-family: 'Do Hyeon', sans-serif;
+    user-select: none;
+}
+.container h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    border-radius: 1px;
+}
+.email_conf p{
+    font-weight: 500;
+    font-size: 14px;
+    color: blue;
+    user-select:text;
+    display: inline-block;
+}
+.email_conf h6{
+    font-size: 16px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.newsletter_conf .btn{
+    font-weight: 700;
+    float: right;
+    font-size: 14px;
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    background-color: red;
+    color: #F8F9FA;
+}
+.newsletter_conf .btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    transition: 0.3;
+}
+.newsletter_conf .btn_2{
+    font-weight: 700;
+    float: right;
+    font-size: 10px;
+    margin: auto;
+    width: auto;
+    padding: 10px;
+    background-color: red;
+    color: #F8F9FA;
+}
+.newsletter_conf .btn_2:hover{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    transition: 0.3;
+}
+.container .form-check{
+    display: inline-block;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.container .email_conf{
+    display: inline-block;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+
+.psw_conf h4{
+    font-size: 18px;
+    display: inline-block;
+}
+.psw_conf input{
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+}
+.psw_conf .btn{
+    font-size: 14px;
+    background-color: red;
+    color: #F8F9FA;
+    font-weight: 700;
+}
+.psw_conf .btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    transition: 0.3;
+}
+.psw_conf .fa-unlock-alt{
+    color: red;
+    font-size: 18px;
+}
+.psw_conf p{
+    font-size: 10px;
+}
+
+
+
+.newsletter_conf .fa-envelope,p{
+    display: inline-block;
+}
+.newsletter_conf .fa-envelope{
+    color: red;
+    font-size: 18px;
+}
+.newsletter_conf p{
+    font-size: 18px;
+    font-weight: 500;
+}

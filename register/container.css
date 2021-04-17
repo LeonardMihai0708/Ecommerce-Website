@@ -1,0 +1,103 @@
+.container{
+    background-color: rgb(243, 243, 243);
+    /*max-height: 350px;*/
+    user-select: none;
+    border-radius: 50px;
+}
+.container .col1{
+    background-color: rgb(62, 99, 150);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container .col2{
+    background-color: transparent;
+}
+.col2 input,p{
+    display: inline-block;
+}
+.container .col,.col-active{
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.container .col p{
+    user-select: none;
+    border: 0 solid transparent;
+    padding: 6px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(150, 145, 145);
+}
+.container .col-active p{
+    user-select: none;
+    border: 0 solid transparent;
+    padding: 6px;
+    font-weight: 850;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Partea dreapta*/
+
+.container .col2 h1{
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 700;
+}
+.container .col2 label{
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 700;
+}
+.container .col2 button{
+    margin-top: 20px;
+    background-color:rgb(223, 4, 4);
+    border-color: transparent;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+.container .col2 button:hover{
+    background-color:rgb(197, 3, 3);
+    font-weight: 700;
+    transition: 0.2s;
+}
+.container .col2 form{
+    padding: 50px;
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 991.9px){
+    .container .col2{
+        margin-left: 16%;
+    }
+}
+@media only screen and (max-width: 991.9px){
+    .container .col,.col-active{
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 12px;
+    }
+    .container .col p{
+        user-select: none;
+        border: 0 solid transparent;
+        padding: 2px;
+        background-color: transparent;
+        font-weight: 700;
+        font-size: 12px;
+        color: rgb(150, 145, 145);
+    }
+    .container .col-active p{
+        user-select: none;
+        border: 0 solid transparent;
+        padding: 2px;
+        font-weight: 850;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+    }
+}
+

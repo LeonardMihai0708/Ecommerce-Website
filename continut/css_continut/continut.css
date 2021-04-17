@@ -1,0 +1,17 @@
+.continut{
+    background-color: #F8F9FA;
+    align-self: center;
+    align-items: center;
+    z-index: 0;
+    display: inline-block;
+}
+.continut .card{
+    display: inline-block;
+    padding: 40px;
+    margin: 10px 10px 10px 10px;
+}
+
+.w3-content .mySlides{
+    height: 500px;
+    width: 100%;
+}

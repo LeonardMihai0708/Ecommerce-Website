@@ -1,0 +1,32 @@
+CREATE TABLE mesaje(
+	id int(12) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nume_prenume varchar(256) NOT null,
+    email varchar(256) not null,
+    telefon varchar(255) not null,
+    mesaj varchar(255) not null,
+    subiect varchar(255) not null
+);
+CREATE TABLE conturi(
+	id int(12) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nume_prenume varchar(256) NOT null,
+    password varchar(256) NOT null,
+    email varchar(256) not null UNIQUE,
+    telefon varchar(255) not null UNIQUE,
+    data_nasterii date not null,
+    stare boolean not null
+);
+
+INSERT INTO conturi (nume_prenume,password,email,telefon,data_nasterii,stare) VALUES ("Persoana Fizica","test2","test2","0745328564","2000-10-08",0);
+INSERT INTO conturi (nume_prenume,password,email,telefon,data_nasterii,stare) VALUES ("Persoana Fizica","test2","test2","0745328564","2000-10-08",False);
+INSERT INTO conturi (nume_prenume,password,email,telefon,data_nasterii,stare) VALUES ("Mihai Leonard","test","test","0745328564","2001-08-07",True);
+
+
+<?php 
+    $now = date('Y');
+    $nowY = $now-18;
+    $then = $nowY."-".date('m-d');
+    echo $then;
+?>
+
+
+UPDATE conturi SET stare='1' WHERE id=14;

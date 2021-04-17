@@ -1,0 +1,86 @@
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #161c16;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.2s;
+  }
+  .container label{
+    color: rgb(223, 4, 4);
+    font-weight: 700;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: rgb(223, 4, 4);
+    transition: 0.2s;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    font-size: 14px;
+    display: table;
+    margin-top: 20px;
+    user-select: none;
+    height: auto;
+  }
+  .container form{
+    display:inline-block;
+  }
+  .container .social_media{
+    float:right;
+    top: 0;
+  }
+  .container .social_media a{
+    display: block;
+    width: 5px;
+    background-color: #161c16;
+  }
+  .container .social_media i{
+    font-size: 48px;
+    padding: 50px;
+    color: rgb(223, 4, 4);
+    transition: 0.2s;
+  }
+  .container .social_media p{
+    font-size: 14px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding: 20px;
+    font-weight: 350;
+    color: rgb(0, 0, 0)
+  }
+  .container .social_media i:hover{
+    transition: 0.2s;
+    color: rgb(89, 3, 3);
+  }
+
+  @media only screen and (max-width: 900px) {
+    .container .social_media a i{
+      font-size: 28px;
+      padding: 20px;
+    }
+    .container .social_media a{
+      display:inline-block;
+      width: auto;
+      margin-left: 0;
+      background-color: transparent;
+    }
+  }
